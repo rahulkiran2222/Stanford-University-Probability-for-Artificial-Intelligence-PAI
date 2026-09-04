@@ -1,62 +1,71 @@
-# Probability-Powered AI Project  
-### Stanford PAI (Probability for Artificial Intelligence) — Fall 2026
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Stanford-PAI%202026-8C1515?style=for-the-badge&logo=stanford&logoColor=white" alt="Stanford PAI"/>
-  <img src="https://img.shields.io/badge/Status-Live%20Demo-2ea44f?style=for-the-badge" alt="Live"/>
-  <img src="https://img.shields.io/badge/Focus-Probabilistic%20Machine%20Learning-blue?style=for-the-badge"/>
-</p>
+# Probabilistic Foundations of Modern AI  
+### A Project from Stanford’s Probability for Artificial Intelligence (PAI) — 2026
 
-<p align="center">
-  <strong>Live Interactive Demo (Stanford-hosted)</strong><br>
-  <a href="https://pai.stanford.edu/pai/share/xy7NOkefSUsi5kgzwx1y">
-    <img src="https://img.shields.io/badge/▶%20Open%20Live%20Project-8C1515?style=for-the-badge&logo=safari&logoColor=white" alt="Open Live Project"/>
-  </a>
-</p>
+<br>
+
+[![Stanford](https://img.shields.io/badge/Stanford-University-8C1515?style=for-the-badge&logo=stanford&logoColor=white)](https://www.stanford.edu)
+[![PAI Course](https://img.shields.io/badge/PAI-Fall%202026-B1040E?style=for-the-badge)](https://pai.stanford.edu)
+[![Status](https://img.shields.io/badge/Status-Live%20Demo-2ea44f?style=for-the-badge)](https://pai.stanford.edu/pai/share/xy7NOkefSUsi5kgzwx1y)
+[![Focus](https://img.shields.io/badge/Focus-Uncertainty%20%26%20Probabilistic%20ML-0A66C2?style=for-the-badge)](#)
+
+<br>
+
+### Live Interactive Version (Stanford Hosted)
+
+**This is the primary and recommended way to explore the work:**
+
+<a href="https://pai.stanford.edu/pai/share/xy7NOkefSUsi5kgzwx1y">
+  <img src="https://img.shields.io/badge/▶%20Launch%20Live%20Project-8C1515?style=for-the-badge&logo=safari&logoColor=white" height="40"/>
+</a>
+
+<br>
+<em>Direct link:</em>  
+<strong><a href="https://pai.stanford.edu/pai/share/xy7NOkefSUsi5kgzwx1y">https://pai.stanford.edu/pai/share/xy7NOkefSUsi5kgzwx1y</a></strong>
+
+</div>
 
 ---
 
 ### Abstract
 
-This project explores core probabilistic foundations of modern artificial intelligence through a hands-on implementation developed during Stanford’s Probability for Artificial Intelligence (PAI) course. The work demonstrates how uncertainty quantification, probabilistic modeling, and inference techniques can be applied to real AI systems.  
+This project investigates the probabilistic principles that underpin modern artificial intelligence systems. Developed as part of Stanford University’s Probability for Artificial Intelligence (PAI) course, it focuses on the rigorous application of probability theory to core machine learning problems, with particular emphasis on uncertainty quantification, maximum likelihood estimation, and the probabilistic interpretation of neural models.
 
-The complete interactive version is publicly hosted on Stanford’s PAI platform.
-
-**→ [Launch Live Project](https://pai.stanford.edu/pai/share/xy7NOkefSUsi5kgzwx1y)**
+The complete interactive implementation is publicly hosted on Stanford’s PAI platform.
 
 ---
 
-### Motivation & Research Relevance
+### Research Motivation
 
-Modern deep learning systems are increasingly expected to not only make predictions but also to **express calibrated uncertainty**. This project investigates the probabilistic principles that underpin such capabilities, bridging classical probability theory with contemporary machine learning practice.
+As machine learning systems are increasingly deployed in high-stakes domains, the ability to reason under uncertainty has become essential. Point-estimate predictions alone are no longer sufficient. This work revisits foundational probabilistic concepts and demonstrates how they provide a principled lens for understanding, evaluating, and improving modern AI models.
 
-Key themes include:
-- Principled handling of uncertainty
-- Maximum likelihood estimation in high-dimensional settings
-- Probabilistic interpretation of neural network behavior
-- Evaluation of model reliability beyond point estimates
+Key questions addressed:
+- How can classical probability theory inform the design and evaluation of contemporary learning systems?
+- In what ways can uncertainty be meaningfully quantified and communicated?
+- What does a probabilistic perspective reveal about the behavior of neural networks?
 
 ---
 
-### Technical Overview
+### Technical Contributions
 
 <details>
-<summary><strong>Click to expand technical details</strong></summary>
+<summary><b>Click to expand detailed technical overview</b></summary>
 
 <br>
 
-**Core Concepts Implemented**
-- Foundational probability and random variables
-- Maximum Likelihood Estimation (MLE)
-- Logistic regression from a probabilistic perspective
-- Neural networks viewed through a probabilistic lens
-- Probabilistic evaluation metrics (calibration, uncertainty, fairness-aware analysis)
+**Core Topics Covered**
+- Foundations of probability and random variables in the context of AI
+- Maximum Likelihood Estimation (MLE) and its role in modern learning
+- Logistic regression derived from first probabilistic principles
+- Neural networks viewed through a probabilistic framework
+- Probabilistic evaluation: calibration, reliability, and uncertainty-aware metrics
 
-**Implementation Highlights**
-- Clean, modular Python implementation
-- Emphasis on interpretability and mathematical correctness
-- Visualizations that connect theory to model behavior
-- End-to-end pipeline from probabilistic modeling to evaluation
+**Implementation Philosophy**
+- Emphasis on mathematical clarity and interpretability
+- Clean separation between theory and implementation
+- Visual explanations that connect formal concepts to model behavior
+- Reproducible experimental pipeline
 
 </details>
 
@@ -64,39 +73,49 @@ Key themes include:
 
 ### Live Demonstration
 
-The full interactive version of this project — including visualizations, experiments, and results — is available on Stanford’s official PAI platform:
+The full interactive version of this project — including experiments, visualizations, and results — is available here:
 
-<p align="center">
-  <a href="https://pai.stanford.edu/pai/share/xy7NOkefSUsi5kgzwx1y">
-    <strong>https://pai.stanford.edu/pai/share/xy7NOkefSUsi5kgzwx1y</strong>
-  </a>
-</p>
+<div align="center">
 
-> This link is the canonical, Stanford-hosted version of the work.
+### [→ Open Live Project on Stanford PAI Platform](https://pai.stanford.edu/pai/share/xy7NOkefSUsi5kgzwx1y)
+
+</div>
+
+> **Note:** The Stanford-hosted version is the canonical and most up-to-date presentation of this work.
 
 ---
 
-### Repository Structure
+### Repository Contents
 
-├── README.md                 # This file
-├── notebooks/                # Experimental notebooks (if applicable)
-├── src/                      # Source code
-├── figures/                  # Key visualizations
-└── requirements.txt          # Dependencies
+| Path | Description |
+|------|-------------|
+| `README.md` | Project overview and documentation |
+| `src/` | Source code and core implementations |
+| `notebooks/` | Experimental notebooks (if applicable) |
+| `figures/` | Key visualizations and plots |
+| `requirements.txt` | Python dependencies |
 
-How to Reproduce bash
+---
 
-git clone https://github.com/<rahulkiran2222>/<your-repo-name>.git
-cd <your-repo-name>
+### Reproducibility
+
+git clone https://github.com/<rahulkiran2222>/<your-repository-name>.git
+cd <your-repository-name>
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-For the best experience, use the live Stanford version linked above.Future Research DirectionsThis work opens several promising avenues:Scaling probabilistic evaluation techniques to large language models
-Investigating better uncertainty quantification methods for foundation models
-Connecting classical probabilistic principles with modern scalable inference
+Potential Research ExtensionsThis work naturally suggests several directions for further investigation:Scaling probabilistic evaluation techniques to large foundation models
+Developing improved methods for uncertainty quantification in deep learning
+Bridging classical statistical principles with modern scalable inference
+Studying calibration and reliability in real-world deployment settings
 
-AcknowledgmentsThis project was developed as part of Stanford University’s Probability for Artificial Intelligence (PAI) course (Fall 2026).
-I am grateful to the course staff and the broader teaching community that made this learning experience possible.<p align="center">
-  <em>Built with mathematical rigor • Hosted with care by Stanford</em>
+AcknowledgmentsThis project was completed as part of Stanford University’s Probability for Artificial Intelligence (PAI) course in Fall 2026. I am grateful to the instructors, teaching staff, and the broader community of volunteer educators who made this learning experience possible.<div align="center">
 
-  <a href="https://pai.stanford.edu/pai/share/xy7NOkefSUsi5kgzwx1y">View Live Project →</a>
-</p>
+Built with mathematical rigor · Hosted by Stanford University
+<a href="https://pai.stanford.edu/pai/share/xy7NOkefSUsi5kgzwx1y">
+  <strong>View the Live Project →</strong>
+</a>
+
+</div>
+``
