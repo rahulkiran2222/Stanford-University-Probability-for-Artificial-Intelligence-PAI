@@ -99,7 +99,7 @@ The full interactive version of this project — including experiments, visualiz
 
 ### Reproducibility
 
-git clone https://github.com/<rahulkiran2222>/<your-repository-name>.git
+git clone https://github.com/<rahulkiran2222>/<Stanford-University-Probability-for-Artificial-Intelligence-PAI>.git
 cd <your-repository-name>
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
