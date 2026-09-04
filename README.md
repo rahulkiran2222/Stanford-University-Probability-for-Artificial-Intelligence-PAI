@@ -78,10 +78,25 @@ The full interactive version of this project — including visualizations, exper
 
 ### Repository Structure
 
-```text
 ├── README.md                 # This file
 ├── notebooks/                # Experimental notebooks (if applicable)
 ├── src/                      # Source code
 ├── figures/                  # Key visualizations
 └── requirements.txt          # Dependencies
 
+How to Reproduce bash
+
+git clone https://github.com/<rahulkiran2222>/<your-repo-name>.git
+cd <your-repo-name>
+pip install -r requirements.txt
+
+For the best experience, use the live Stanford version linked above.Future Research DirectionsThis work opens several promising avenues:Scaling probabilistic evaluation techniques to large language models
+Investigating better uncertainty quantification methods for foundation models
+Connecting classical probabilistic principles with modern scalable inference
+
+AcknowledgmentsThis project was developed as part of Stanford University’s Probability for Artificial Intelligence (PAI) course (Fall 2026).
+I am grateful to the course staff and the broader teaching community that made this learning experience possible.<p align="center">
+  <em>Built with mathematical rigor • Hosted with care by Stanford</em>
+
+  <a href="https://pai.stanford.edu/pai/share/xy7NOkefSUsi5kgzwx1y">View Live Project →</a>
+</p>
